@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <ctype.h>
+#include <cstring>
 #include <GraphicsDefs.h>
 #include <View.h>
 #include "FileItem.h"
