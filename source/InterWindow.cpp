@@ -17,6 +17,7 @@
 #include <Background.h>
 #include <stdlib.h>
 #include <FindDirectory.h>
+#include <storage/File.h>
 #include <storage/Path.h>
 
 const char *theName;
