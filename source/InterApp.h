@@ -6,7 +6,7 @@
 #include "InterWindow.h"
 #include "FSNav.h"
 
-const char APP_VERSION[] = "1.6.1";
+const char APP_VERSION[] = "1.6.2";
 const char APP_SIGNATURE[] = "application/x-vnd.Dragfly-Butterfly";
 
 class BFPrefs;

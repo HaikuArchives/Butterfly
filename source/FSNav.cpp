@@ -284,15 +284,14 @@ void FSNav::FileSelected(int32 num)
 
 	if(num > 0)
 	{
+		status_t rc;
 		BEntry entry;
-		BStringItem *item = (BStringItem*)theList->ItemAt(num);
-		currentDir->FindEntry(item->Text(), &entry);
-		BDirectory *newDir = new BDirectory(&entry);
-		if (newDir->InitCheck() == B_OK)
-		{	// it's a directory : do nothing
-			delete newDir;
+		BStringItem *item = (BStringItem*)theList->ItemAt(num);		
+		rc = currentDir->FindEntry(item->Text(), &entry);
+		if (rc != B_OK) {
+			return;
 		}
-		else {
+		if (entry.IsDirectory() == false) {
 			TryToLoadBitmapFromFile(&entry);
 		}
 	}
@@ -365,6 +364,8 @@ void FSNav::TryToLoadBitmapFromFile(BEntry *entry)
 	struct stat st;
 	BRect r = ((InterApp*)be_app)->theWin->Frame();
 	
+	// GetStat() corrupts the stack on Haiku when called by an app compiled on BeOS 5
+	// The stat structure has different sizes in Haiku and BeOS
 	entry->GetStat(&st);
 	if (st.st_size > 100000) {	
 		if (!theLoadingWindow)
@@ -373,7 +374,7 @@ void FSNav::TryToLoadBitmapFromFile(BEntry *entry)
 			theLoadingWindow->MoveTo(r.left + (r.right -r.left)/2, r.top + (r.bottom -r.top)/2);
 		theLoadingWindow->Show();
 	}
-	
+
 	BPath p;
 	entry->GetPath(&p);
 	BBitmap *b = BTranslationUtils::GetBitmapFile(p.Path());	// try to load pic
@@ -384,6 +385,7 @@ void FSNav::TryToLoadBitmapFromFile(BEntry *entry)
 	if (st.st_size > 100000) {	
 		theLoadingWindow->Hide();
 	}
+
 //	theLoadingWindow->Lock();
 //	theLoadingWindow->Quit();
 }
