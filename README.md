@@ -140,12 +140,12 @@ If you're stuck in fullscreen mode with release 1.4, you can edit the attributes
 - Zoom In/Out.
 - Keyboard scrolling.
 - Drag'n Drop anywhere in the window.
-- vertical scrollbar dimension bug removed.
+- Vertical scrollbar dimension bug removed.
 #### Release 0.2.0 (March 8th, 1999)
-- drag-and-drop support. 
-- enhance display.
+- Drag-and-drop support. 
+- Enhance display.
 #### Release 0.1.0 (March 8th, 1999)
-- first public release. 
+- First public release. 
 
 
 ## Thanks to
