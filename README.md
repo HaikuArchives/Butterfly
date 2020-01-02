@@ -19,7 +19,7 @@ This program is provided as is. I take no responsibility for any damage or conse
 ## Features
 
 - File system browsing.
-- Drag-and-drop support (resolve symb link).
+- Drag-and-drop support (resolving symbolic links).
 - Dynamically resize bitmaps to fit in the window.
 - Zoom-In and Zoom-Out.
 - Convert and Save to others formats.
