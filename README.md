@@ -14,7 +14,7 @@ This program is provided as is. I take no responsibility for any damage or conse
 ## Features
 
 - File system browsing.
-- Drag-and-drop support (resolve symb link).
+- Drag-and-drop support (resolving symbolic links).
 - Dynamically resize bitmaps to fit in the window.
 - Zoom-In and Zoom-Out.
 - Convert and Save to others formats.
@@ -28,7 +28,7 @@ This program is provided as is. I take no responsibility for any damage or conse
 
 You can either use the mouse or the keyboard to browse.
 
-To enter in a directory, double click it or press Enter. The current path is displayed in the status bar.
+To enter a directory, double click it or press Enter. The current path is displayed in the status bar.
 
 To display an image file, click on its name, use the keyboard arrows or the mouse wheel to highlight it.
 
