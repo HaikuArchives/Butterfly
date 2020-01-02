@@ -7,10 +7,9 @@
     Description: Picture browser
     Notes: Freeware
 
+Butterfly is a picture browser based on the translators for displaying bitmap images. It was inspired by Sea, a DOS picture browser. Its aim is to allow easy and fast browsing of an important number of pictures.
+
  ![Butterfly Screenshot](distribute/Screenshot.png)
-
-Butterfly is a picture browser based on the translators for displaying bitmap images. It was inspired by Sea, a DOS picture browser. This should be the last release.
-
 
 ## DISCLAIMER
 
