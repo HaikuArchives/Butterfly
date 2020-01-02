@@ -43,35 +43,39 @@ Drag'n'Drop is supported in different manners. You can drag an image file's icon
 Right-clicking in the picture view opens a popup menu with different options (see below).
 
 ### Commands:
-+/-         :    Zoom in/out
+**+/-**         :    Zoom in/out
 
-\*          :    Reset zoom factor to 100%
+**\***          :    Reset zoom factor to 100%
 
-[Space] or .:    Toggle real fullscreen mode (nothing but the picture)
+**[Space] or .**:    Toggle real fullscreen mode (nothing but the picture)
  
  
-Up Arrow:        Move up within the file list
+**Up Arrow**:        Move up within the file list
 
-Down Arrow:      Move down within the file list
+**Down Arrow**:      Move down within the file list
 
-Backspace:       Go to the parent folder
+**Backspace**:       Go to the parent folder
 
-Del:             Delete the selected file
+**Del**:             Delete the selected file
  
  
-Shift + Arrow:   Move the picture in the given direction
+**Shift + Arrow**:   Move the picture in the given direction
  
  
-Left Mouse Button:   Pan the picture around
+**Left Mouse Button**:   Pan the picture around
 
-Right Mouse Button:  Display the popup menu
+**Right Mouse Button**:  Display the popup menu
 
 ### Menu:
-Convert:            Translate and save the current image to another format
-Set as Desktop:     Modify the current background image
-Set All Desktops:   Set all desktop background images
-Zoom-in/out:        Guess...
-Preferences:        Open the preferences panel
+**Convert**:            Translate and save the current image to another format
+
+**Set as Desktop**:     Modify the current background image
+
+**Set All Desktops**:   Set all desktop background images
+
+**Zoom-in/out**:        Guess...
+
+**Preferences**:        Open the preferences panel
 
 
 ## History
@@ -156,6 +160,7 @@ Finn Bastiansen for the german translation.
 
 CrazyBugs Design
 site : http://www.chez.com/bthery/butterfly/Butterfly.html
+
 email: bthery_AT_chez.com (for bug reports) or dragfly_kj_AT_rocketmail.com
 
 Copyright ©1999-2002 CrazyBugs Design. All rights reserved.
