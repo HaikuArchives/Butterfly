@@ -43,22 +43,28 @@ Drag'n'Drop is supported in different manners. You can drag an image file's icon
 Right-clicking in the picture view opens a popup menu with different options (see below).
 
 ### Commands:
-+/-             Zoom in/out
-\*              Reset zoom factor to 100%
-[Space] or .    Toggle real fullscreen mode (nothing but the picture)
++/-         :    Zoom in/out
+
+\*          :    Reset zoom factor to 100%
+
+[Space] or .:    Toggle real fullscreen mode (nothing but the picture)
  
  
-Up Arrow        Move up within the file list
-Down Arrow      Move down within the file list
-Backspace       Go to the parent folder
-Del             Delete the selected file
+Up Arrow:        Move up within the file list
+
+Down Arrow:      Move down within the file list
+
+Backspace:       Go to the parent folder
+
+Del:             Delete the selected file
  
  
-Shift + Arrow   Move the picture in the given direction
+Shift + Arrow:   Move the picture in the given direction
  
  
-Left Mouse Button   Pan the picture around
-Right Mouse Button  Display the popup menu
+Left Mouse Button:   Pan the picture around
+
+Right Mouse Button:  Display the popup menu
 
 ### Menu:
 Convert:            Translate and save the current image to another format
