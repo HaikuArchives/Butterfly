@@ -7,7 +7,7 @@
     Description: Picture browser
     Notes: Freeware
 
- ![Butterfly Screenshot](distribute/Screenshot.jpg)
+ ![Butterfly Screenshot](distribute/Screenshot.png)
 
 Butterfly is a picture browser based on the translators for displaying bitmap images. It was inspired by Sea, a DOS picture browser. This should be the last release.
 
@@ -19,15 +19,15 @@ This program is provided as is. I take no responsibility for any damage or conse
 
 ## Features
 
-- File system browsing
-- Drag-and-drop support (resolve symb link)
-- Dynamically resize bitmaps to fit in the window
-- Zoom-In and Zoom-Out
-- Convert and Save to others formats
-- Pan using the mouse
-- Mouse wheel support to browse images
-- Backgrounds support
-- Multi-lingual support : english, french, russian, brasilian-portuguese, italian, spanish, euskera, german
+- File system browsing.
+- Drag-and-drop support (resolve symb link).
+- Dynamically resize bitmaps to fit in the window.
+- Zoom-In and Zoom-Out.
+- Convert and Save to others formats.
+- Pan using the mouse.
+- Mouse wheel support to browse images.
+- Backgrounds support.
+- Multi-lingual support: English, French, Russian, Brazilian-Portuguese, Italian, Spanish, Euskera, German.
 
 
 ## Usage
@@ -43,29 +43,29 @@ Drag'n'Drop is supported in different manners. You can drag an image file's icon
 Right-clicking in the picture view opens a popup menu with different options (see below).
 
 ### Commands:
-+/-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;zoom in/out
-\*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reset zoom factor to 100%
-[Space] or .&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;toggle real fullscreen mode (nothing but the picture)
++/-             Zoom in/out
+\*              Reset zoom factor to 100%
+[Space] or .    Toggle real fullscreen mode (nothing but the picture)
  
  
-Up Arrow&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;move up within the file list
-Down Arrow&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;move down within the file list
-Backspace&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;go to the parent folder
-Del&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;delete the selected file
+Up Arrow        Move up within the file list
+Down Arrow      Move down within the file list
+Backspace       Go to the parent folder
+Del             Delete the selected file
  
  
-Shift + Arrow&nbsp;&nbsp;&nbsp;move the picture in the given direction
+Shift + Arrow   Move the picture in the given direction
  
  
-Left Mouse Button&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pan the picture around
-Right Mouse Button&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;display the popup menu
+Left Mouse Button   Pan the picture around
+Right Mouse Button  Display the popup menu
 
 ### Menu:
-Convert:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Translate and save the current image to another format
-Set as Desktop:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Modify the current background image
-Set All Desktops:&nbsp;&nbsp;&nbsp;set all desktop background images
-Zoom-in/out:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Guess...
-Preferences:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;open the preferences panel
+Convert:            Translate and save the current image to another format
+Set as Desktop:     Modify the current background image
+Set All Desktops:   Set all desktop background images
+Zoom-in/out:        Guess...
+Preferences:        Open the preferences panel
 
 
 ## History
